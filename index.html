@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exposição de Modelos 3D - Lafda UFF</title>
     <style>
+        /* RESET E CONFIGURAÇÕES GERAIS */
         * {
             margin: 0;
             padding: 0;
@@ -18,6 +19,7 @@
             line-height: 1.6;
         }
 
+        /* CABEÇALHO */
         header {
             background: linear-gradient(135deg, #4a2c5c 0%, #5c3470 100%);
             color: white;
@@ -66,6 +68,7 @@
             font-weight: 300;
         }
 
+        /* SEÇÃO HERO (BANNER PRINCIPAL) */
         .hero {
             background: linear-gradient(135deg, #5c3470 0%, #4a2c5c 100%);
             color: white;
@@ -117,6 +120,7 @@
             border-radius: 2px;
         }
 
+        /* SEÇÃO DE CONTEÚDO PRINCIPAL */
         .content-section {
             padding: 4rem 0;
         }
@@ -128,6 +132,7 @@
             margin-top: 3rem;
         }
 
+        /* CARDS DOS MODELOS 3D */
         .info-card {
             background: white;
             padding: 2rem;
@@ -195,6 +200,7 @@
             color: #888;
         }
 
+        /* SEÇÃO DE DESTAQUE */
         .highlight {
             background: linear-gradient(135deg, #4a2c5c 0%, #5c3470 100%);
             color: white;
@@ -228,6 +234,7 @@
             box-shadow: 0 6px 8px rgba(0,0,0,0.3);
         }
 
+        /* RODAPÉ */
         footer {
             background: #2c2c2c;
             color: white;
@@ -253,6 +260,7 @@
             box-shadow: 0 2px 6px rgba(0,0,0,0.15);
         }
 
+        /* RESPONSIVIDADE */
         @media (max-width: 768px) {
             h1 {
                 font-size: 1.8rem;
@@ -274,10 +282,12 @@
     </style>
 </head>
 <body>
+    <!-- CABEÇALHO COM LOGO E INFORMAÇÕES DO LABORATÓRIO -->
     <header>
         <div class="container">
             <div class="header-content">
                 <div class="logo-section">
+                    <!-- LOGO DO LAFDA -->
                     <img src="lafda-marca_cor_s_tagline_fundo_claro.png" alt="Logo Lafda" class="logo-image">
                 </div>
                 <div>
@@ -289,6 +299,7 @@
         </div>
     </header>
 
+    <!-- BANNER PRINCIPAL COM TÍTULO DO EVENTO -->
     <section class="hero">
         <div class="container hero-content">
             <h2>3º Seminário do Lafda: Acervos, Preservação e Difusão</h2>
@@ -297,8 +308,10 @@
         </div>
     </section>
 
+    <!-- SEÇÃO PRINCIPAL COM OS MODELOS 3D -->
     <section class="content-section">
         <div class="container">
+            <!-- DESCRIÇÃO DO EVENTO -->
             <div style="text-align: center; max-width: 900px; margin: 0 auto 4rem auto;">
                 <p style="color: #666; font-size: 1.1rem; line-height: 1.8;">
                     Esta exposição integra as atividades do <strong style="color: #4a2c5c;">3º Seminário do Lafda: Acervos, Preservação e Difusão</strong>, 
@@ -306,73 +319,83 @@
                 </p>
             </div>
             
+            <!-- GRADE DE MODELOS 3D -->
             <div class="info-grid">
-                <!-- Os modelos 3D serão inseridos aqui -->
-                <!-- TEMPLATE PARA ADICIONAR NOVOS MODELOS:
+                <!-- MODELO 1: MICROSCÓPIO DE OSWALDO CRUZ -->
                 <div class="info-card">
                     <div class="model-image">
-                        <img src="caminho/para/imagem-modelo.jpg" alt="Nome do Modelo">
+                        <!-- ESPAÇO PARA IMAGEM DO MODELO -->
+                        <span class="placeholder"><img src="MICROSCÓPIO DE OSWALDO CRUZ.jpeg" alt="MODELO 3D MICROSCÓPIO DE OSWALDO CRUZ"></span>
                     </div>
-                    <h3><a href="LINK_DO_MODELO_3D" target="_blank">Título do Modelo</a></h3>
-                    <p>Descrição detalhada do modelo 3D.</p>
+                    <!-- TÍTULO E LINK PARA O MODELO NO SKETCHFAB -->
+                    <h3><a href="https://sketchfab.com/3d-models/microscopio-de-oswaldo-cruz-424642be369a44b294dd8aca8ba29fab" target="_blank">Microscópio de Oswaldo Cruz</a></h3>
+                    <!-- DESCRIÇÃO DO MODELO -->
+                    <p>Microscópio histórico utilizado pelo renomado cientista brasileiro Oswaldo Cruz em suas pesquisas pioneiras. Este instrumento foi fundamental para os estudos que revolucionaram a saúde pública no Brasil no início do século XX.</p>
+                    <!-- METADADOS DO MODELO -->
                     <div class="model-meta">
-                        <strong>Técnica:</strong> Técnica utilizada<br>
-                        <strong>Ano:</strong> 2025
-                    </div>
-                </div>
-                -->
-                
-                <div class="info-card">
-                    <div class="model-image">
-                        <span class="placeholder"><img src="" alt=""></span>
-                        <!-- <img src="caminho/para/imagem1.jpg" alt="Modelo 1"> -->
-                    </div>
-                    <h3><a href="#" target="_blank">Modelo Exemplo 1</a></h3>
-                    <p>Descrição detalhada do modelo 3D, incluindo informações sobre origem, técnica de digitalização e relevância cultural ou artística.</p>
-                    <div class="model-meta">
-                        <strong>Técnica:</strong> Fotogrametria<br>
-                        <strong>Ano:</strong> 2025
+                        <strong>Técnica:</strong> Fotogrametria de alta precisão<br>
+                        <strong>Ano:</strong> 2024<br>
+                        <strong>Origem:</strong> Acervo histórico da Fiocruz
                     </div>
                 </div>
 
+                <!-- MODELO 2: PAINEL DA CAPELA DA ILHA DE BOA VIAGEM -->
                 <div class="info-card">
                     <div class="model-image">
-                        <span class="placeholder"><img src="" alt=""></span>
-                        <!-- <img src="caminho/para/imagem2.jpg" alt="Modelo 2"> -->
+                        <span class="placeholder"><img src="PAINEL DA CAPELA DA ILHA DE BOA VIAGEM.jpeg" alt="MODELO 3D PAINEL DA CAPELA DA ILHA DE BOA VIAGEM"></span>
                     </div>
-                    <h3><a href="#" target="_blank">Modelo Exemplo 2</a></h3>
-                    <p>Descrição detalhada do modelo 3D, incluindo informações sobre origem, técnica de digitalização e relevância cultural ou artística.</p>
+                    <h3><a href="https://sketchfab.com/3d-models/painel-da-capela-da-ilha-de-boa-viagem-niteroi-71a2a1d769564437bae44d0142d5b4fd" target="_blank">Painel da Capela da Ilha de Boa Viagem</a></h3>
+                    <p>Detalhado painel artístico da histórica Capela de Nossa Senhora da Boa Viagem, localizada na Ilha da Boa Viagem em Niterói. Representa importante exemplar da arte sacra colonial brasileira com influências barrocas.</p>
                     <div class="model-meta">
-                        <strong>Técnica:</strong> Scan 3D<br>
-                        <strong>Ano:</strong> 2025
+                        <strong>Técnica:</strong> Digitalização a laser<br>
+                        <strong>Ano:</strong> 2023<br>
+                        <strong>Localização:</strong> Niterói, RJ
                     </div>
                 </div>
 
+                <!-- MODELO 3: TELESCÓPIO EQUATORIAL DO OBSERVATÓRIO DO VALONGO -->
                 <div class="info-card">
                     <div class="model-image">
-                        <span class="placeholder"><img src="" alt=""></span>
-                        <!-- <img src="caminho/para/imagem3.jpg" alt="Modelo 3"> -->
+                        <span class="placeholder"><img src="TELESCÓPIO EQUATORIAL DO OBSERVATÓRIO DO VALONGO.jpeg" alt="MODELO 3D TELESCÓPIO EQUATORIAL DO OBSERVATÓRIO DO VALONGO"></span>
                     </div>
-                    <h3><a href="#" target="_blank">Modelo Exemplo 3</a></h3>
-                    <p>Descrição detalhada do modelo 3D, incluindo informações sobre origem, técnica de digitalização e relevância cultural ou artística.</p>
+                    <h3><a href="https://sketchfab.com/3d-models/telescopio-equatorial-observatorio-do-valongo-332e5dedea4342c8802ff53f46a839c2" target="_blank">Telescópio Equatorial do Observatório do Valongo</a></h3>
+                    <p>Importante instrumento científico do Observatório do Valongo (UFRJ), utilizado para observações astronômicas desde o século XIX. Representa marco histórico da astronomia brasileira e do desenvolvimento científico nacional.</p>
                     <div class="model-meta">
-                        <strong>Técnica:</strong> Fotogrametria<br>
-                        <strong>Ano:</strong> 2025
+                        <strong>Técnica:</strong> Scan 3D de alta resolução<br>
+                        <strong>Ano:</strong> 2024<br>
+                        <strong>Instituição:</strong> Observatório do Valongo - UFRJ
+                    </div>
+                </div>
+
+                <!-- MODELO 4: ESTÁTUA DA IMPERATRIZ LEOPOLDINA -->
+                <div class="info-card">
+                    <div class="model-image">
+                        <span class="placeholder"><img src="MODELO 4 ESTÁTUA DA IMPERATRIZ LEOPOLDINA.jpeg" alt="MODELO 3D ESTÁTUA DA IMPERATRIZ LEOPOLDINA"></span>
+                    </div>
+                    <h3><a href="https://sketchfab.com/3d-models/estatua-de-imperatriz-leopoldina-da-austria-314c6b2a2dce48a88b540527a79091d1" target="_blank">Estátua da Imperatriz Leopoldina da Áustria</a></h3>
+                    <p>Escultura em homenagem a Dona Leopoldina, primeira imperatriz do Brasil. A peça retrata a arquiduquesa da Áustria que teve papel fundamental no processo de independência do Brasil e no desenvolvimento cultural do país.</p>
+                    <div class="model-meta">
+                        <strong>Técnica:</strong> Fotogrametria digital<br>
+                        <strong>Ano:</strong> 2023<br>
+                        <strong>Material Original:</strong> Bronze
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+       <!-- RODAPÉ COM LOGOS DAS INSTITUIÇÕES PARCEIRAS -->
     <footer>
         <div class="container">
             <div class="footer-logos">
+                <!-- LOGOS DAS INSTITUIÇÕES ENVOLVIDAS -->
                 <img src="lafda-marca_cor_s_tagline_fundo_claro.png" alt="Logo Lafda" class="footer-logo">
                 <img src="uff500.png" alt="Logo UFF" class="footer-logo">
                 <img src="logo_faperj_preto_completo.png" alt="Logo Faperj" class="footer-logo">
                 <img src="unnamed (2).png" alt="Logo Proppi" class="footer-logo">
                 <img src="Proex02c.png" alt="Logo Proex" class="footer-logo">
             </div>
+            <!-- INFORMAÇÕES DE DIREITOS AUTORAIS E CRÉDITOS -->
             <p>&copy; 2025 Lafda - Laboratório de Artefatos Físicos, Digitais e Algorítmicos - UFF</p>
             <p>3º Seminário do Lafda: Acervos, Preservação e Difusão</p>
         </div>
